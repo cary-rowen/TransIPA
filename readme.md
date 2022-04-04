@@ -2,7 +2,7 @@
 
 * 作者： Cary-rowen <manchen_0528@outlook.com>
 * NVDA兼容性： NVDA2019.3或更高版本
-
+* 音标数据： 浮云
 
 ## 简介
 
