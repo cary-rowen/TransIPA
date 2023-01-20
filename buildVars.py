@@ -26,7 +26,7 @@ addon_info = {
 	"addon_description": _("""本插件支持以盲文点位表示法读出国际音标，相关音标数据由浮云提供，
 功能开关快捷键 NVDA+Shift+P。"""),
 	# version
-	"addon_version": "1.1",
+	"addon_version": "1.2",
 	# Author(s)
 	"addon_author": "Cary-rowen <manchen_0528@outlook.com>",
 	# URL for the add-on documentation support
