@@ -20,13 +20,13 @@ addon_info = {
 	# Add-on summary, usually the user visible name of the addon.
 	# Translators: Summary for this add-on
 	# to be shown on installation and add-on information found in Add-ons Manager.
-	"addon_summary": _("以盲文表示法读出国际音标"),
+	"addon_summary": _("Reporting the International Phonetic Alphabet in Braille"),
 	# Add-on description
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-	"addon_description": _("""本插件支持以盲文点位表示法读出国际音标。
-功能开关快捷键 NVDA+Shift+P。"""),
+	"addon_description": _("""This add-on allows NVDA to report the International Phonetic Alphabet using braille dots.
+Switch gesture NVDA+Shift+P."""),
 	# version
-	"addon_version": "1.2.1",
+	"addon_version": "1.2.2",
 	# Author(s)
 	"addon_author": "Cary-rowen <manchen_0528@outlook.com>",
 	# URL for the add-on documentation support
@@ -38,7 +38,7 @@ addon_info = {
 	# Minimum NVDA version supported (e.g. "2018.3.0", minor version is optional)
 	"addon_minimumNVDAVersion": 2019.3,
 	# Last NVDA version supported/tested (e.g. "2018.4.0", ideally more recent than minimum version)
-	"addon_lastTestedNVDAVersion": 2023.1,
+	"addon_lastTestedNVDAVersion": 2024.1,
 	# Add-on update channel (default is None, denoting stable releases,
 	# and for development releases, use "dev".)
 	# Do not change unless you know what you are doing!
@@ -69,7 +69,7 @@ excludedFiles = []
 # Base language for the NVDA add-on
 # If your add-on is written in a language other than english, modify this variable.
 # For example, set baseLanguage to "es" if your add-on is primarily written in spanish.
-baseLanguage = "zh_CN"
+baseLanguage = "en"
 
 # Markdown extensions for add-on documentation
 # Most add-ons do not require additional Markdown extensions.

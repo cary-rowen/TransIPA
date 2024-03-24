@@ -1,7 +1,6 @@
 # 音标朗读
 
 * 作者： Cary-rowen <manchen_0528@outlook.com>
-* NVDA兼容性： NVDA2019.3或更高版本
 * 数据贡献： 社会主义好、浮云
 
 ## 简介

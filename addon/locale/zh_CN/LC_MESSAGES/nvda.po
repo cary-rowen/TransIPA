@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 'TransIPA' '1.2.2'\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2024-03-24 20:26+0800\n"
+"PO-Revision-Date: 2024-03-24 20:27+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: addon\globalPlugins\TransIPA.py:34
+msgid "Toggle reporting of Phonetic"
+msgstr "切换读出盲文音标的开关"
+
+#: addon\globalPlugins\TransIPA.py:41
+msgid "off"
+msgstr "不读盲文音标"
+
+#: addon\globalPlugins\TransIPA.py:44
+msgid "on"
+msgstr "读出盲文音标"
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information found in Add-ons Manager.
+#: buildVars.py:23
+msgid "Reporting the International Phonetic Alphabet in Braille"
+msgstr "音标朗读"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:26
+msgid ""
+"This add-on allows NVDA to report the International Phonetic Alphabet using "
+"braille dots.\n"
+"Switch gesture NVDA+Shift+P."
+msgstr ""
+"该插件支持以盲文点位表示法读出国际音标。\n"
+"NVDA+Shift+P 开启 / 关闭音标朗读。"

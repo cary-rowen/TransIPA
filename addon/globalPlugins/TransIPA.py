@@ -1,5 +1,8 @@
-﻿# Author: Eureka <manchen_0528@outlook.com>
-
+# -*- coding:utf-8 -*-
+# A part of the NVDA Volume Adjustment add-on
+# This file is covered by the GNU General Public License.
+# See the file COPYING for more details.
+# Copyright (C) 2021-2024 Cary-rowen <manchen_0528@outlook.com>
 
 import os
 import scriptHandler
@@ -8,8 +11,11 @@ import globalCommands
 import globalVars
 import speechDictHandler
 import ui
+import addonHandler
+addonHandler.initTranslation()
 
-dictFile = os.path.join(os.path.dirname(os.path.abspath(__file__)), "IPAData.dic")
+
+dictFile = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'IPAData.dic')
 speechDict = speechDictHandler.SpeechDict()
 transIPA = False
 
@@ -28,8 +34,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 
 	@scriptHandler.script(
-		description=_("切换读出盲文音标的开关"), 
-gesture=_("kb:NVDA+Shift+P"))
+		description=_("Toggle reporting of Phonetic"), 
+gesture="kb:NVDA+Shift+P")
 	def script_toggle(self, gesture):
 		if not globalVars.speechDictionaryProcessing:
 			return

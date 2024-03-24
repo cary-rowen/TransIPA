@@ -1,18 +1,21 @@
-# 音标朗读
+# International Phonetic Alphabet Report
 
-* 作者： Cary-rowen <manchen_0528@outlook.com>
-* NVDA兼容性： NVDA2019.3或更高版本
-* 数据贡献： 社会主义好、浮云
+* Author: Cary-rowen <manchen_0528@outlook.com>
 
-## 简介
+## Introduction
 
-这是一款 NVDA 插件，支持以盲文点位表示法读出国际音标。
+This NVDA add-on represents the International Phonetic Alphabet using braille dots.
 
-NVDA+Shift+P 开启 / 关闭音标朗读。
+Switch gesture: NVDA+Shift+P.
 
+## Example
 
-## 举例
+Word: go [ɡəʊ]  
+Part of speech: verb  
+Meaning: MOVE/TRAVEL  
 
-go [ɡəʊ]  v. 去；离开；变得；进行 n. 去；尝试；精力；一举
+If this add-on feature is enabled, when you review the phonetic content by character, NVDA will report the following:
 
-若开启了音标朗读，那么其中的音标数据[ɡəʊ]会朗读为：“1245点； 126点； 136点”
+* Braille 1 2 4 5
+* Braille 1 2 6
+* Braille 1 3 6
