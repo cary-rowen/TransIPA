@@ -10,9 +10,9 @@ Switch gesture: NVDA+Shift+P.
 
 ## Example
 
-Word: go [ɡəʊ]  
-Part of speech: verb  
-Meaning: MOVE/TRAVEL  
+Word: go [ɡəʊ]
+Part of speech: verb
+Meaning: MOVE/TRAVEL
 
 If this add-on feature is enabled, when you review the phonetic content by character, NVDA will report the following:
 
