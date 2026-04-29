@@ -12,12 +12,14 @@ import globalVars
 import speechDictHandler
 import ui
 import addonHandler
+
 addonHandler.initTranslation()
 
 
-dictFile = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'IPAData.dic')
+dictFile = os.path.join(os.path.dirname(os.path.abspath(__file__)), "IPAData.dic")
 speechDict = speechDictHandler.SpeechDict()
 transIPA = False
+
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	scriptCategory = globalCommands.SCRCAT_SPEECH
@@ -32,10 +34,10 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		global speechDict
 		speechDict = None
 
-
 	@scriptHandler.script(
-		description=_("Toggle reporting of Phonetic"), 
-gesture="kb:NVDA+Shift+P")
+		description=_("Toggle reporting of Phonetic"),
+		gesture="kb:NVDA+Shift+P",
+	)
 	def script_toggle(self, gesture):
 		if not globalVars.speechDictionaryProcessing:
 			return
@@ -46,10 +48,12 @@ gesture="kb:NVDA+Shift+P")
 			transOn()
 			ui.message(_("on"))
 
+
 def transOn():
 	global transIPA
 	speechDictHandler.dictionaries["temp"].extend(speechDict)
 	transIPA = True
+
 
 def transOff():
 	global transIPA
